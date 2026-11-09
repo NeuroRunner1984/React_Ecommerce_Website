@@ -1,6 +1,5 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
 import App from './App.jsx'
 import {BrowserRouter} from "react-router-dom"; 
 
@@ -9,6 +8,6 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <App />
     </BrowserRouter> 
-    {/*  This is a wrapper component that allows us to use routing in our app. It provides the routing context to all the components inside it. */}
+    
   </StrictMode>,
 )
